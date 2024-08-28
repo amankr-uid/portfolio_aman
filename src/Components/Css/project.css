@@ -1,0 +1,10 @@
+
+.project-list__wrap.carousel:focus-visible {
+    outline: none !important;
+}
+.project-list__wrap .flickity-viewport {
+    overflow: unset;
+}
+body.dark-mode .project-section .project-info {
+    background-color: rgb(2 6 23);
+}

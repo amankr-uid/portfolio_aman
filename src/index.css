@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+/* Or in your main CSS file (e.g., styles.css) */
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+
+
+:root {
+    --primary-black-color: #000;
+    --primary-light-color: #fff;
+    --primary-dark-color: #212121;
+    --font-body-family: 'Poppins', sans-serif;
+    --font-heading-family: 'Cinzel', serif;
+    --font-secondary-family: "Oswald", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
+html, body {
+  max-width: 100%;
+  /* overflow-x: hidden; */
+  -webkit-tap-highlight-color: transparent;
+  position: relative;
+  -webkit-font-smoothing: antialiased; 
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body-family);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.page-width, .page-width-narrow {
+  width: 100%;
+  padding: 0 15px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Cinzel', serif;
+}
+
+/* Sections Title Start */
+
+.section__title-contatiner {
+  display: flex;
+  justify-content: center ;
+}
+.section__title-contatiner .section--title {
+  font-family: var(--font-secondary-family);
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1;
+  text-transform: capitalize;
+  text-align: center;
+  position: relative;
+  padding: 0 0 60px;
+}
+.section__title-contatiner .section--title::before {
+  left: 0;
+  bottom: 20px;
+  width: 80%;
+  left: 50%;
+  margin-left: -40%;
+  height: 1px;
+  background-color: #777;
+  z-index: 4;
+}
+.section__title-contatiner .section--title::after {
+  width: 40px;
+  height: 40px;
+  left: 50%;
+  margin-left: -20px;
+  bottom: 5px;
+  content: '\2135';
+  font-size: 40px;
+  line-height: 35px;
+  color: #c50000;
+  font-weight: 400;
+  z-index: 5;
+  display: block;
+  background-color: #fff;
+}
+
+/* Section Title End */
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+::before, ::after {
+  content: '';
+  position: absolute;
+}
+
+i::before, i::after {
+  position: unset;
+}
+
+/* Dark Mode CSS */
+
+/* Dark Mode Styles */
+body.dark-mode, body.dark-mode .contact-section {
+  background-color: rgb(17 24 39);
+  color: #e0e0e0 ;
+}
+
+body.dark-mode .header-section, body.dark-mode .footer-section,
+body.dark-mode .mob-navbar-wrapper {
+  background-color: rgb(2 6 23);
+}
+body.dark-mode .section__title-contatiner .section--title::after {
+  background-color: rgb(17 24 39);
+}
+body.dark-mode .section__title-contatiner .section--title::before {
+  background-color: #e0e0e0;
+}
+
+
+/* Flickity Slider */
+.carousel {
+  overflow: hidden;
+  height: auto;
+}
+.carousel-cell {
+  width: 85%;
+  height: 100%;
+  margin-right: 20px;
+  min-height: 250px;
+}
+
+/* ** Media Query ** */
+
+@media(min-width: 992px) {
+  .page-width {
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+  .section__title-contatiner .section--title {
+    font-size: 55px;
+  }
+  .page-width-narrow {
+    padding: 0;
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+}
+
+@media(min-width: 640px) {
+  .carousel-cell {
+    width: 50%; /* Adjust to 50% width for medium screens */
+    min-height: 300px;
+  }
+}
+
+@media(min-width: 1024px) {
+  .carousel-cell {
+    width: 30%; /* 3 items per row for larger screens */
+  }
+}

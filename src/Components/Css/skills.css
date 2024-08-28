@@ -1,0 +1,21 @@
+.skills-wrapper {
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 100%;
+    scrollbar-width: none;
+}
+
+.skill-data-wrap {
+    width: 100%;
+    max-width: 80%;
+    flex: 1 0 auto;
+}
+body.dark-mode .category__title-contatiner h3 {
+    color: #e0e0e0;
+}
+
+@media(min-width: 992px) {
+    .skill-data-wrap {
+        max-width: calc(100% / 4 - 20px);
+    }
+}

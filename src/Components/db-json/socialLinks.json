@@ -1,0 +1,27 @@
+[
+    {
+      "icon": "fa-brands fa-instagram",
+      "url": "https://www.instagram.com/se.amangupta"
+    },
+    {
+      "icon": "fa-brands fa-linkedin",
+      "url": "https://www.linkedin.com/in/mr-engineer-99d678/"
+    },
+    {
+      "icon": "fa-regular fa-envelope",
+      "url": "mailto:amankr.lang@gmail.com"
+    },
+    {
+      "icon": "fa-brands fa-github",
+      "url": "https://github.com/amankr-uid"
+    },
+    {
+      "icon": "fa-brands fa-whatsapp",
+      "url": "https://api.whatsapp.com/send?phone=917301840061"
+    },
+    {
+      "icon": "fa-brands fa-telegram",
+      "url": "https://t.me/mr_gupta_19"
+    }
+  ]
+  

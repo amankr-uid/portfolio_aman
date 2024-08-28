@@ -1,0 +1,110 @@
+
+
+.experience-section .experience-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 30px auto 0;
+    padding: 0 5px;
+}
+
+.experience-data-wrap {
+    border: 6px solid #c1c5cd;
+    width: 100%;
+    position: relative;
+    height: auto;
+    margin: -3px 0;
+    border-radius: 25px;
+    max-width: 94%;
+    position: relative;
+    padding: 15px 24px;
+}
+.experience-data-wrap:first-child {
+    align-self: flex-end;
+    border-top: 0px solid #fff;
+    padding-right: 0;
+}
+.experience-data-wrap:nth-child(2n) {
+    align-self: flex-end;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-left: 0px solid #edeef8;
+    padding-left: 0;
+}
+.experience-data-wrap:nth-child(2n+1) {
+    align-self: flex-start;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-right: 0px solid #edeef8;
+    padding-right: 0;
+}
+
+
+/* Icon */
+
+.experienceIconWrap {
+    width: 35px;
+    height: 35px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px 0px #38383840;
+    padding: 8px;
+    top: calc(50% - 30px);
+    position: absolute;
+}
+.experience-data-wrap:nth-child(2n+1) .experienceIconWrap {
+    left: -21px;
+}
+.experience-data-wrap:nth-child(2n) .experienceIconWrap {
+    right: -21px;
+}
+.experienceIconWrap i.fa-circle-check {
+    background: #fff;
+    color: blue;
+    font-size: 20px;
+}
+
+
+/* Experience Data Icon & text color on dark Mode */
+
+body.dark-mode .experienceContentWrap i {
+    color: #fff;
+}
+body.dark-mode .experienceContentWrap h3 {
+    color: skyblue;
+}
+body.dark-mode .experienceContentWrap .company-location {
+    color: rgb(183, 183, 183);
+}
+
+@media(min-width: 992px) {
+    .experience-section .experience-wrapper {
+        max-width: 65%;
+        padding: 0;
+    }
+
+    .experience-data-wrap {
+        max-width: 95%;
+        padding: 18px 40px;
+    }
+    .experience-data-wrap:first-child {
+        align-self: flex-end;
+        border-top: 0px solid #fff;
+        margin-right: 20px;
+    }
+
+    .experienceIconWrap {
+        width: 60px;
+        height: 60px;
+        padding: 17px;
+    }
+    .experience-data-wrap:nth-child(2n+1) .experienceIconWrap {
+        left: -30px;
+    }
+    .experience-data-wrap:nth-child(2n) .experienceIconWrap {
+        right: -30px;
+    }
+    .experienceIconWrap i.fa-circle-check {
+        font-size: 26px;
+    }
+}

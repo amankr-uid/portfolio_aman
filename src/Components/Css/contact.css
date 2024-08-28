@@ -1,0 +1,21 @@
+.contact-section .section__title-contatiner .section--title::after {
+    background-color: rgb(236 252 203);
+}
+
+
+@media(min-width: 992px) {
+    .contact-section {
+        position: relative;
+    }
+    .contact-section::before {
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: -60px;
+        background-image: url(../../assets/telephone-contact.png);
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-size: contain;
+        z-index: 1;
+    }
+}
