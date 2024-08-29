@@ -5,7 +5,7 @@ import './Css/contact.css'
 const ContactForm = () => {
   const [formData, setFormData] = useState({
     name: '',
-    mobile: '',
+    contact_number: '',
     email: '',
     message: ''
   });
@@ -41,7 +41,7 @@ const ContactForm = () => {
     setFormData({
       name: '',
       mobile: '',
-      email: '',
+      contact_number: '',
       message: ''
     });
   };
@@ -74,7 +74,7 @@ const ContactForm = () => {
                     type="number" 
                     id="mobile" 
                     name="mobile" 
-                    value={formData.mobile} 
+                    value={formData.contact_number} 
                     onChange={handleChange} 
                     placeholder='Mobile number'
                     required 
