@@ -5,13 +5,16 @@ import './Css/contact.css'
 const ContactForm = () => {
   const [formData, setFormData] = useState({
     name: '',
-    contact_number: '',
+    mobile: '',
     email: '',
     message: ''
   });
 
   const handleChange = (e) => {
     const { name, value } = e.target;
+    if (name === 'mobile' && value.length > 10) {
+      return; // Prevents the mobile number from exceeding 10 digits
+    }
     setFormData({
       ...formData,
       [name]: value
@@ -40,7 +43,7 @@ const ContactForm = () => {
     // Clear the form after submission
     setFormData({
       name: '',
-      contact_number: '',
+      mobile: '',
       email: '',
       message: ''
     });
@@ -74,7 +77,7 @@ const ContactForm = () => {
                     type="number" 
                     id="mobile" 
                     name="mobile" 
-                    value={formData.contact_number} 
+                    value={formData.mobile} 
                     onChange={handleChange} 
                     placeholder='Mobile number'
                     required 
