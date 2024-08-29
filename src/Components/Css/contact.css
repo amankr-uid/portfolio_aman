@@ -18,4 +18,8 @@
         background-size: contain;
         z-index: 1;
     }
+    .contact-section .page-width {
+        position: relative;
+        z-index: 2;
+    }
 }

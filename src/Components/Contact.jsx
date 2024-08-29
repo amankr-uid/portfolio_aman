@@ -49,7 +49,7 @@ const ContactForm = () => {
   return (
     <section className='py-14 contact-section bg-lime-100' id='Contact'>
         <div className='page-width lg:container'>
-            <div className='section__title-contatiner'>
+            <div className='section__title-contatiner '>
                 <h2 className='section--title'>Contact Me</h2>
             </div>
             <div className='mt-3 contact-note'><p className='w-full text-lg text-center'> <span className='pr-2 font-semibold'>Note:</span>If you required any consultation. Kindly, fill the form.</p></div>
