@@ -40,8 +40,8 @@ const ContactForm = () => {
     // Clear the form after submission
     setFormData({
       name: '',
-      mobile: '',
       contact_number: '',
+      email: '',
       message: ''
     });
   };
