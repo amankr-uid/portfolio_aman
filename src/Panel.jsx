@@ -17,7 +17,6 @@ function Panel() {
     <>
       <MainHeadNav />
       <main>
-      
         <About Abouts={Abouts} />
         <Experience Experiences={Experiences} />
         <Skill Skills={skillsData} />
