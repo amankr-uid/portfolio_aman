@@ -2,14 +2,22 @@
     "Experiences": [
         {
             "id": 1,
-            "company_title": "Corporateserve Solutions",
+            "company_title": "Future Focus Infotech (Publicis Sapient)",
             "location": "Onsite, Gurgaon, Haryana",
-            "designation": "Frontend Developer (UI).",
-            "duration": "From April 2024 To Present",
-            "summary": "Conducted pre-project analysis and technical assessments focusing on UX/UI design and requirements for Back Office Management. Utilized Agile methodologies to manage tasks across various systems, including campus and hospital management. Led strategic planning, addressed complex technical challenges, and facilitated cross-functional collaboration to optimize and implement software solutions."
+            "designation": "Senior Frontend Developer.",
+            "duration": "From November 2025 To Present",
+            "summary": "Managed Back Office operations, storefront functionality, and UX/UI enhancements for cosmetic brands under the Shiseido Company, including SHISEIDO, NARS, Drunk Elephant, Dr. Dennis Gross Skincare, and Clé de Peau Beauté for US and Canada markets. Conducted technical assessments, optimized business workflows, collaborated with cross-functional teams, and utilized Agile methodologies to support scalable software solutions and seamless customer experiences."
         },
         {
             "id": 2,
+            "company_title": "Corporateserve Solutions",
+            "location": "Onsite, Gurgaon, Haryana",
+            "designation": "Frontend Developer (UI).",
+            "duration": "From April 2024 To November 2025",
+            "summary": "Conducted pre-project analysis and technical assessments focusing on UX/UI design and requirements for Back Office Management. Utilized Agile methodologies to manage tasks across various systems, including campus and hospital management. Led strategic planning, addressed complex technical challenges, and facilitated cross-functional collaboration to optimize and implement software solutions."
+        },
+        {
+            "id": 3,
             "company_title": "Quara Digital",
             "location": "Remote, Riyadh, UAE",
             "designation": "Frontend Developer (UI).",
@@ -17,7 +25,7 @@
             "summary": "Conducted pre-project analysis and technical assessments for real estate platforms wasalt.com and darglobal.co.uk, focusing on UX/UI design and technical requirements. Utilized Agile methodologies for efficient task management across multiple projects, led strategic planning to align with business goals, and collaborated with senior developers to address complex challenges and implement advanced features. Conducted market research to guide decision-making and fostered cross-functional collaboration to ensure effective implementation of tailored real estate solutions."
         },
         {
-            "id": 3,
+            "id": 4,
             "company_title": "CEDCOSS Technologies",
             "location": "Onsite, Lucknow, UP",
             "designation": "Frontend Developer (UI).",
@@ -25,7 +33,7 @@
             "summary": "Conducted pre-project analysis and technical assessments for user-friendly Shopify interfaces, managing tasks for over 30 concurrent projects. Led strategic planning for Shopify and web development, executed special projects, and researched market trends for optimal solutions. Collaborated with technical and design teams to develop innovative Shopify applications and designed systems based on initial briefs."
         },
         {
-            "id":4,
+            "id": 5,
             "company_title": "SDK ITS SOLUTIONS",
             "location": "Onsite, Gurgaon, Haryana",
             "designation": "Software Engineer",
